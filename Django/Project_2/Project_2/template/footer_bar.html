@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <!-- CSS Personalizado -->
+        <link rel='stylesheet' type='text/css' href='{% static "css/design.css" %}'>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <footer id="footer-sys">
+            <!-- MAIN FOOTER -->
+            <div id="foo-main-sys">
+                <div id="foo-main-01-sys">
+                    <img src='{% static "images/foot-Tel_01.png" %}'>
+                    <p><h2>Teléfono</h2></p>
+                </div>
+                <div id="foo-main-02-sys">
+                    <img src='{% static "images/foot-Email-02.png" %}'>
+                    <p><h2>Correo</h2></p>
+                </div>
+                <div id="foo-main-03-sys">
+                    <img src='{% static "images/foot-Ubi-03.png" %}'>
+                    <p><h2>Ubicación</h2></p>
+                </div>
+            </div>
+            <!-- CENTER FOOTER -->
+            <div id="foo-center-sys">
+                <div id="foo-center-01-sys">
+                    <h3>COMPAÑÍA</h3>
+                    <p>
+                        Somos una empresa que impulsa a las micro, pequeñas y medianas empresas a mejorar sus procesos administrativos
+                    </p>
+                </div>
+                <div id="foo-center-02-sys">
+                    <h3>¿QUÉ HACEMOS?</h3>
+                    <ul>
+                        <li>Implementación</li>
+                        <li>Desarrollo</li>
+                        <li>Mantenimiento</li>
+                        <li>Consultoría</li>
+                        <li>Redes</li>
+                        <li>Soporte técnico</li>
+                    </ul>
+                </div>
+                <div id="foo-center-03-sys">
+                    <h3>CONTACTANOS</h3>
+                    <p>
+                        Tel. : +(52) 444-113-1981<br>
+                        Email: contacto@siintec.com<br>
+                        Dir: Aguamarina 766A Esmeralda, San Luis Potosí, S.L.P., México.<br>
+                        Horario:
+                        9AM – 6PM (Lun – Vie)
+                    </p>
+                </div>
+                <div id="foo-center-04-sys">
+                    <h3>SUBSCRIBETE</h3>
+                    <p>Ingresa tu email para recibir notificaciones acerca de nuestro servicios</p>
+                    <div id="email">
+                        <input type="text" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+            <!-- UNDER FOOTER -->
+            <div id="foo-under-sys">
+                <ul>
+                    <li><img src='{% static "images/RS-01-facebook.png" %}'> </li>
+                    <li><img src='{% static "images/RS-02-linkedin.png" %}'> </li>
+                    <li><img src='{% static "images/RS-03-twitter.png" %}'> </li>
+                    <li><img src='{% static "images/RS-04-instagram.png" %}'> </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

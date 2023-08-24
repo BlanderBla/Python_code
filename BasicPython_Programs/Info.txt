@@ -1,0 +1,76 @@
+"""
+BASIC
+"""
+# IMPRIME #
+1. Imprime "Hola, mundo!" en la consola.                           [LISTO]
+2. Imprime los números pares e impares de un valor ingresado.      [LISTO]
+3. Imprime el patrón de asteriscos en forma de triángulo.          [LISTO]
+# CALCULA # 
+4. Calcula las operaciones de dos números enteros.                 [LISTO]
+5. Calcula el área de diferentes figuras.                          [LISTO]
+6. Calcula el factorial de un número dado.                         [LISTO]
+7. Calcula el promedio de una lista de números.                    [LISTO]
+# ENCUENTRA #
+8. Encuentra el número más grande en una lista.                    [LISTO]
+9. Encuentra el elemento más pequeño en una lista.                 [LISTO]
+# CONVIERTE # 
+10. Convierte grados Celsius a Fahrenheit y Kelvin.                 [LISTO]
+11. Convierte una cadena de texto a mayúsculas.                     [LISTO]
+12. Invierte una cadena de texto.                                   [LISTO]
+13. Genera una lista de números aleatorios.                         [LISTO]
+# CUENTA # 
+14. Cuenta la cantidad de vocales en una cadena de texto.           [LISTO]
+15. Cuenta la cantidad de letras en una cadena de texto.            [LISTO]
+# ORDENA #
+16. Ordena una lista de números de forma ascendente.                [LISTO]
+
+
+"""
+INTERMEDIATE
+"""
+17. Cuenta la cantidad de palabras repetidas en una cadena de texto.                                                    [LISTO]
+18. Verifica si una cadena de texto es un anagrama de otra.                                                             [LISTO]
+19. Verifica si una cadena de texto es un palíndromo sin tener en cuenta los espacios en blanco y la puntuación.        [LISTO]
+20. Verifica si una cadena de texto es un pangrama (contiene todas las vocales).                                        [LISTO]
+21. Verifica si una cadena de texto es un acrónimo (las letras iniciales de cada palabra forman una palabra)            [LISTO]
+
+22. Implementa una función para encontrar el elemento más frecuente en una lista.                                       [LISTO]
+23. Implementa una función para cifrar y descifrar un mensaje utilizando el cifrado de César.                           [LISTO]
+24. Implementa una función para calcular la mediana de una lista de números.                                            [LISTO]
+    
+Crea una función para buscar y reemplazar una palabra en un archivo de texto.                                           [LISTO]
+Crea una función para encontrar todos los archivos con una extensión específica en un directorio dado.                  [LISTO]
+
+
+"""
+NumPy Excercise
+"""
+25. Crear un array NumPy con 10 elementos y realizar las siguientes operaciones:                                        [LISTO]
+    a) Calcular la media de los elementos.                                                                              
+    b) Obtener el máximo y mínimo de la lista.                                                                          
+    c) Normalizar el array para que los valores estén en el rango [0, 1].                                               
+26. Crear dos matrices 3x3 y realizar una suma y una resta de matrices.                                                 [LISTO]
+27. Crear un array NumPy de números aleatorios y ordenarlo de menor a mayor.                                            [LISTO]
+28. Calcular el producto punto de dos arrays NumPy de 1D.                                                               [LISTO]
+29. Crear una matriz diagonal con valores de 1 a 5 y luego calcular la traza de la matriz.                              [LISTO]
+30. Dada una matriz NumPy de 1D, reemplazar todos los valores mayores que un número dado por 0.                         [LISTO]
+31. Dada una matriz NumPy, calcular la transposición de la matriz.                                                      [LISTO]
+32. Dada una matriz NumPy, agregar una fila y una columna de unos al inicio de la matriz.                               [LISTO]
+33. Dada una matriz NumPy, encontrar los índices de los valores  nulos.                                                 [LISTO]
+34. Resolver un sistema de ecuaciones lineales utilizando NumPy. Por ejemplo: Ax = b                                    []
+35. Donde A es una matriz conocida, x es el vector de incógnitas y b es el vector de constantes.                        []
+
+
+"""
+Pandas Excercise
+"""
+Leer un archivo CSV y crear un DataFrame con los datos. Luego, mostrar las primeras filas del DataFrame.                [LISTO]
+Filtrar y mostrar las filas de un DataFrame que cumplan con cierta condición (mayores que un número dado en una columna específica).
+Calcular estadísticas básicas (media, mediana, desviación estándar) de una columna numérica en el DataFrame.            []
+Agregar una nueva columna al DataFrame que contenga la suma de dos columnas existentes.                                 []
+Eliminar filas con valores faltantes (NaN) de un DataFrame.                                                             []
+Ordenar el DataFrame en función de los valores de una columna específica, de forma ascendente y descendente.            []
+Agrupar los datos en el DataFrame por una columna específica y calcular la suma, media u otras estadísticas para cada grupo. []
+Realizar un merge (combinar) dos DataFrames en función de una columna común.                                            []
+Aplicar una función personalizada a una columna del DataFrame y crear una nueva columna con los resultados.             []
+Leer datos desde una API o una página web utilizando Pandas y realizar manipulaciones y análisis básicos con los datos obtenidos.

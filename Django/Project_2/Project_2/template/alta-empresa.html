@@ -1,0 +1,25 @@
+{% extends 'base_configuracion.html' %}
+
+{% block title %} Alta de empresa {% endblock title %}
+
+{% block content %}
+	<img src=''>
+	<ul>
+		<li>Alta empresa</li>
+		<li>Modificar empresa</li>
+		<li>Eliminar empresa</li>
+	</ul>
+{% endblock content %}
+
+{% block content_2 %}
+<form id="cont-form">
+    <p></p>
+    <ul>
+        <li><label>Empresa:<input type="text" placeholder="Ingrese el nombre de la empresa"></label></li>
+        <li><label>Descripción:<input type="text" placeholder="Breve descripción de la empresa"></label></li>
+        <li><label>Contacto:<input type="text" placeholder="Ingrese el # de la empresa"></label></li>
+    </ul>
+    <button>Cargar Empresa</button>
+</form>
+
+{% endblock content_2 %}

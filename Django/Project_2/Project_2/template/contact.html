@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <!-- CSS Personalizado -->
+        <link href='{% static "css/design.css" %}' rel="stylesheet" type="text/css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+        <title>Contactanos</title>
+    </head>
+    <body>
+        {% include "nav_bar.html" %}
+
+        <div id="title_contact">Contactanos</div>
+        <div id="main_contact">
+            <div id="contact_left"></div>
+            <div id="contact_right"></div>
+        </div>
+        <div></div>
+
+        {% include "footer_bar.html" %}
+    </body>
+</html>

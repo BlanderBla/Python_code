@@ -1,0 +1,21 @@
+<html>
+    <body>
+
+        {% include "barra.html" %}
+
+        <h1>Hello world from Python Django with Templates</h1>
+        <h2>By: {{nombre_persona}} {{apellido_persona}}</h2>
+        <p>List: </p>
+        <p>
+            <ul>
+                {% if temas %}
+                    {% for i in temas %}
+                        <li>{{i}}</li>
+                    {% endfor %}
+                {% else %}
+                    <p>No hay elementos</p>
+                {% endif %}
+            </ul>
+        </p>
+    </body>
+</html>

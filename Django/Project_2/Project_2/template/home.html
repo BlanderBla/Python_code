@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <!-- CSS Personalizado -->
+        <link href='{% static "css/design.css" %}' rel="stylesheet" type="text/css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+        <title>Gestor de archivos</title>
+    </head>
+    <body>
+        {% include "nav_bar.html" %}
+        {% include "slide_bar.html" %}
+        <div id="main_home">    
+            <div id="main_home_left" class="main_container">
+                <img src='{% static "images/main_User.png" %}'>
+                <h3>Administración de usuarios</h3>
+                <div>
+                    <ul>
+                        <li><a href="">Alta usuarios</a></li>
+                        <li><a href="">Eliminar usuarios</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_home_center" class="main_container">
+                <img src='{% static "images/main_Business.png" %}'>
+                <h3>Administración de empresas</h3>
+                <div>
+                    <ul>
+                        <li><a href="">Alta empresas</a></li>
+                        <li><a href="">Eliminar empresas</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="main_home_right" class="main_container">
+                <img src='{% static "images/main_File.png" %}'>
+                <h3>Administración de archivos</h3>
+                <div>
+                    <ul>
+                        <li><a href="">Cargar archivos</a></li>
+                        <li><a href="">Eliminar archivos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% include "footer_bar.html" %}
+    </body>
+</html>

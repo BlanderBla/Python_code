@@ -1,0 +1,29 @@
+{% extends 'base_configuracion.html' %}
+
+{% block title %} Alta de usuarios {% endblock title %}
+
+{% block content %}
+	<img src=''>
+	<ul>
+		<li>Alta usuario</li>
+		<li>Modificar usuario</li>
+		<li>Eliminar usuario</li>
+	</ul>
+{% endblock content %}
+
+{% block content_2 %}
+<form id="cont-form">
+    <p></p>
+    <ul>
+        <li><label>Nombre:<input type="text" placeholder="Ingrese el nombre del usuario"></label></li>
+        <li><label>Apellido materno:<input type="text" placeholder="Ingrese el apellido materno del usuario"></label></li>
+        <li><label>Apellido paterno:<input type="text" placeholder="Ingrese el apellido paterno del usuario"></label></li>
+        <li><label>Correo electrónico:<input type="text" placeholder="Ingrese el correo electrónico del usuario"></label></li>
+        <li><label>Contraseña:<input type="password" ></label></li>
+        <li><label>Tipo usuario:<select></select></label></li>
+        <li><label>Empresa:<select></select></label></li>
+    </ul>
+    <button>Cargar usuario</button>
+</form>
+
+{% endblock content_2 %}

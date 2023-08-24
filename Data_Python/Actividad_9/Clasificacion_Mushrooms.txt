@@ -1,0 +1,173 @@
+class
+	e = 0
+	p = 1
+------
+cap-shape:                
+	bell = 	b = 	0,
+	conical = 	c = 	1,
+	convex = 	x = 	2,
+	flat = 	f = 	3,
+	knobbed = 	k =	4,
+	sunken = 	s = 	5
+------
+cap-surface:
+	fibrous =	f =	0,
+	grooves =	g =	1,
+	scaly = 	y =	2,
+	smooth = 	s = 	3
+------
+cap-color:
+	brown =	n = 	0,
+	buff	=	b =	1,
+	cinnamon =	c =	2,
+	gray = 	g =	3,
+	green = 	r =	4,
+	pink = 	p =	5,
+	purple = 	u =	6,
+	red =		e =	7,
+	white	=	w =	8,
+	yellow =	y = 9
+------
+bruises?:
+	bruises =	t =	0,
+	no =		f =	1
+------
+odor:
+	almond =	a =	0,
+	anise	= 	l =	1,
+	creosote =	c =	2,
+	fishy =	y =	3,
+	foul	= 	f = 	4,
+	musty	= 	m = 	5,
+	none 	= 	n =	6,
+	pungent =	p = 	7,
+	spicy	=	s =	8,
+------
+gill-attachment:
+	attached =	a =	0,
+	descending =d =	1,
+	free = 	f =	2,
+	notched = 	n =	3 
+------
+gill-spacing:
+	close	=	c =	0,
+	crowded =	w =	1,
+	distant = 	d =	2
+------
+gill-size:
+	broad =	b = 	0,
+	narrow = 	n =	1
+------
+gill-color:
+	black	=	k = 	0,
+	brown	=	n =	1,
+	buff	= 	b =	2,
+	chocolate =	h =	3,
+	gray	=	g =	4,
+	green =	r =	5,
+	orange =	o =	6,
+	pink = 	p =	7,
+	purple = 	u =	8,
+	red	=	e =	9,
+	white	=	w =	10,
+	yellow =	y =	11
+-----
+stalk-shape:
+	enlarging =	e =	0,
+	tapering =	t =	1
+------
+stalk-root:
+	bulbous =	b =	0,
+	club =	c =	1,
+	cup =		u = 	2,
+	equal =	e =	3,
+	rhizomorphs=z = 	4,
+	rooted =	r =	5,
+	missing =	? =	6
+------
+stalk-surface-above-ring: 
+	fibrous =	f =	0,
+	scaly =	y = 	1,
+	silky =	k =	2,
+	smooth =	s =	3
+------
+stalk-surface-below-ring:
+	fibrous =	f =	0,
+	scaly =	y =	1,
+	silky =	k =	2,
+	smooth =	s =	3
+------
+stalk-color-above-ring:
+	brown	=	n =	0,
+	buff =	b =	1,
+	cinnamon =	c =	2,
+	gray =	g =	3,
+	orange =	o =	4,
+	pink =	p =	5,
+	red =		e = 	6,
+	white	=	w =	7,
+	yellow =	y =	8
+------
+stalk-color-below-ring:
+	brown	=	n =	0,
+	buff =	b = 	1,
+	cinnamon =	c =	2,
+	gray =	g =	3,
+	orange =	o = 	4,
+	pink	=	p = 	5,
+	red	=	e = 	6,
+	white =	w =	7,
+	yellow =	y = 	8
+------
+veil-type:                
+	partial =	p =	0,
+	universal =	u =	1
+------
+veil-color:
+	brown =	n =	0,
+	orange =	o =	1,
+	white = 	w =	2,
+	yellow =	y =	3
+------
+ring-number:              
+	none = 	n =	0,
+	one = 	o = 	1,
+	two =		t =	2
+------
+ring-type:
+	cobwebby =	c =	0,
+	evanescent =e =	1,
+	flaring =	f =	2,
+	large =	l =	3,
+	none =	n =	4,
+	pendant =	p =	5,
+	sheathing =	s =	6,
+	zone = 	z = 	7
+------
+spore-print-color:
+	black	=	k = 	0,
+	brown =	n =	1,
+	buff 	=	b =	2,
+	chocolate =	h =	3,
+	green =	r =	4,
+	orange = 	o =	5,
+	purple =	u =	6,
+	white =	w =	7,
+	yellow =	y =	8
+------
+population:
+	abundant =	a =	0,
+	clustered =	c =	1,
+	numerous =	n =	2,
+	scattered = s =	3,
+	several =	v = 	4,
+	solitary = 	y =	5
+------
+habitat:
+	grasses =	g =	0,
+	leaves =	l =	1,
+	meadows =	m =	2,
+	paths =	p =	3,
+	urban =	u =	4,
+	waste =	w =	5,
+	woods =	d =	6

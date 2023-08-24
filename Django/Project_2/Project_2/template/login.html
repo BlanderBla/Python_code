@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <!-- CSS Personalizado -->
+	<link href='{% static "css/design.css" %}' rel="stylesheet" type="text/css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+	<title>Gestor de archivos</title>
+    <style>
+        #body_lg{
+            background-image: url('{% static "images/background.jpg" %}');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body id="body_lg">
+    {% include "nav_bar.html" %}
+	<div id="index_body_main">
+		<div id="index_main_left">
+			<h1>Bienvenido</h1><br>
+            <p>
+                ► Plataforma digital para administar los documentos de tu empresa
+            </p>
+		</div>
+		<div id="index_main_right">
+            <h2>Iniciar sesión</h2>
+			<form id="index_main_left_form" action="" method="post">
+				<br><br><br>
+				Correo electrónico: <br><input type="text" id="lg-user" name="lg-user" placeholder="Ingrese su correo electrónico" required="True"><br><br>
+				Cotraseña: <br><input type="password" id="lg-pass" name="lg-pass" placeholder="Ingrese su contraseña" required="True"><br><br>
+				<input id="lg-insesion" type="submit" value="Iniciar sesión">
+			</form>
+		</div>
+	</div>
+    <br>
+    {% include "footer_bar.html" %}
+</body>
+</html>
